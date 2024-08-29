@@ -32,6 +32,21 @@ cd DSSMs
 pip install -r requirements.txt
 ```
 
+## Datasets
+
+### Speech Modeling Task
+To download the dataset for the speech modeling task, use the LibriSpeech dataset. Specifically, we use the `dev-clean.tar.gz` dataset, which can be downloaded from the following link:
+
+[Download LibriSpeech Dataset](https://www.openslr.org/12/)
+
+### Polyphonic Music Generation Task
+For the polyphonic music generation task, you can directly download the dataset using Python's Pyro library. Use the following code snippet to load the `JSB Chorales` dataset:
+
+```python
+import pyro.contrib.examples.polyphonic_data_loader as poly
+data = poly.load_data(poly.JSB_CHORALES)
+```
+
 ## Acknowledgements
 Our implementation is inspired by the following works:
 
