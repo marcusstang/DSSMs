@@ -22,6 +22,15 @@ The repository provides the implementation of the following models:
 - **Autoregressive State Space Model (ArSSM)**
 - **Feedforward State Space Model (FSSM)**
 
+## Installation
+
+Clone the repository and install the required packages:
+
+```bash
+git clone https://github.com/marcusstang/DSSMs.git
+cd DSSMs
+pip install -r requirements.txt
+```
 
 ## Acknowledgements
 Our implementation is inspired by the following works:
