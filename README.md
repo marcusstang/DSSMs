@@ -48,6 +48,10 @@ data = poly.load_data(poly.JSB_CHORALES)
 ```
 
 ## Acknowledgements
+This research was supported by grants from the National Key R&D Program, the RGC of Hong Kong, the Natural Science Foundation of China, the ITF - Guangdong-Hong Kong Technology Cooperation Funding Scheme, and the InnoHK initiative of The Government of the HKSAR for the Laboratory for AI-Powered Financial Technologies.
+
+We would also like to thank the contributors and maintainers of PyTorch and Pyro for their excellent machine learning libraries.
+
 Our implementation is inspired by the following works:
 
 - [Pyro DMM Example](https://github.com/pyro-ppl/pyro/blob/dev/examples/dmm.py): This code provides an excellent foundation for implementing deep state space models using Pyro. We adapted some of their model structures and training routines to suit our framework.
