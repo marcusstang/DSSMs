@@ -48,7 +48,7 @@ data = poly.load_data(poly.JSB_CHORALES)
 ```
 
 ## Acknowledgements
-This research was supported by grants from the National Key R&D Program, the RGC of Hong Kong, the Natural Science Foundation of China, the ITF - Guangdong-Hong Kong Technology Cooperation Funding Scheme, and the InnoHK initiative of The Government of the HKSAR for the Laboratory for AI-Powered Financial Technologies.
+This research work is supported by a Math and Application Project (2021YFA1003504) under the National Key R&D Program, a Collaborative Research Fund by the RGC of Hong Kong (Project No. C1143-20G), a grant from the Natural Science Foundation of China (U20A20189), a grant from the ITF - Guangdong-Hong Kong Technology Cooperation Funding Scheme (Project Ref. No. GHP/145/20), and an InnoHK initiative of The Government of the HKSAR for the Laboratory for AI-Powered Financial Technologies.
 
 We would also like to thank the contributors and maintainers of PyTorch and Pyro for their excellent machine learning libraries.
 
